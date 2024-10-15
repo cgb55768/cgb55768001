@@ -1,0 +1,146 @@
+body {
+  color: #000;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+.head {
+  background-color: #fff;
+}
+.head .wrapper {
+  display: flex;
+  background-color: #f3f1f1;
+}
+.logo {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.logo a {
+  display: block;
+  width: 96px;
+  height: 48px;
+  background-image: url(../images/logo.jpeg);
+  font-size: 0;
+}
+.name {
+  margin-left: 20px;
+  text-align: center;
+  width: 76px;
+  height: 48px;
+  font-size: 18px;
+}
+.nav {
+ padding: 18px;
+}
+.nav ul {
+  display: flex;
+  background-color: #f3f1f1;
+}
+.nav li {
+  margin-left: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.nav li a {
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 32px;
+  font-size: 18px;
+
+}
+.nav li .active,
+.nav li a:hover {
+  border-bottom: 2px solid #2e39d3;
+}
+.search {
+  display: flex;
+  padding: 1px;
+  height: 30px;
+  margin-top: 18px;
+  background-color: #f3f1f1;
+}
+.search input {
+  display: block;
+  text-align: center;
+  height: 28px;
+  width: 120px;
+  border-radius: 20px;
+  border: 0.1px solid #e9e3e3;
+}
+.search a {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  width: 64px;
+  height: 28px;
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+.show {
+  margin-top: 40px;
+  height: 580px;
+  background-color: #fff;
+}
+.show .wrapper {
+  height: 580px;
+  background-image: url(../uploads/7.jpeg);
+  background-color: #f3f1f1;
+  opacity: 0.2;
+}
+.conner {
+  margin-top: 40px;
+  height: 144px;
+  background-color: #fff;
+}
+.conner .wrapper {
+  display: flex;
+  padding-top: 20px;
+  height: 104px;
+  background-color: #f3f1f1;
+  font-size: 18px;
+}
+.douyinline {
+  height: 64px;
+  background-color: #f3f1f1;
+  padding-left: 40px;
+}
+.douyinline a {
+  display: flex;
+}
+.douyinline a .douyin {
+  width: 64px;
+  height: 64px;
+  background-image: url(../images/抖音账号.png);
+  background-color: #fff;
+}
+.douyinline a .number1 {
+  padding: 20px;
+}
+.weixinline {
+  display: flex;
+  height: 64px;
+  padding-left: 40px;
+  background-color: #f3f1f1;
+}
+.weixinline .weixin {
+  width: 64px;
+  height: 64px;
+  background-image: url(../images/weixin.png);
+}
+.weixinline .number2 {
+  padding: 20px;
+}
+.footer {
+  background-color: #fff;
+}
+.footer .wrapper {
+  /* inset-inline-start: 40px; */
+  height: 80px;
+  font-size: 16px;
+  background-color: #f3f1f1;
+}
+
